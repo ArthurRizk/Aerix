@@ -221,9 +221,9 @@ export default function Home() {
           onClick={() => scrollToSection(0)}
           className="flex shrink-0 items-center gap-2 transition-transform hover:scale-105"
         >
-          <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-foreground/15 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-foreground/25 sm:h-8 sm:w-8 md:h-9 md:w-9 lg:h-10 lg:w-10">
-            <span className="font-sans text-base font-bold text-foreground sm:text-lg md:text-xl lg:text-2xl">A</span>
-          </div>
+          <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full transition-all duration-300 hover:scale-110 sm:h-8 sm:w-8 md:h-9 md:w-9 lg:h-10 lg:w-10">
+  <img src="/AerixLogo.png" alt="Aerix Logo" className="h-full w-full object-contain" />
+</div>
           <span className="whitespace-nowrap font-sans text-base font-semibold tracking-tight text-foreground sm:text-lg md:text-xl lg:text-2xl">
             Aerix
           </span>

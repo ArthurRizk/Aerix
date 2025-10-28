@@ -11,8 +11,12 @@ export const metadata: Metadata = {
   title: "Aerix",
   description: "Aerix a Tool That Filters All B2B Leads While Finding them",
   generator: "aerix.netlify.app",
-}
-
+  icons: {
+    icon: "/AerixLogo.png",        // Tab favicon
+    shortcut: "/AerixLogo.png",    // Shortcut icon
+    apple: "/AerixLogo.png",       // Apple devices
+  },
+};
 export default function RootLayout({
   children,
 }: Readonly<{
